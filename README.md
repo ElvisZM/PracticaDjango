@@ -1,0 +1,2 @@
+# PracticaDjango
+Crear pequeña web
