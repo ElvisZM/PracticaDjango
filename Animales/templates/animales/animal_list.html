@@ -38,5 +38,11 @@
   </div>
   <div id="footer">&copy; 2007<a href="#">yoursite</a>. Design by <a href="http://lukasz.sobek.pl">Lukasz Sobek</a></div>
 </div>
+  {% for animal in animales_mostrar %}
+    <article>
+      <h2><a href="">{{ animal.nombre }}</h2>
+      <p>{{ animal.tipo }}</p>
+    </article>
+  {% endfor %}
 </body>
 </html>

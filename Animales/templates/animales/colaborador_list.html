@@ -74,5 +74,13 @@
 Pets Template 
 http://www.templatemo.com/preview/templatemo_034_pets 
 -->
+
+    {% for colaborador in colaboradores_mostrar %}
+        <article>
+            <h2><a href="">{{ colaborador.nombre }}</h2>
+            <p>{{ colaborador.cargo }}</p>
+            <time>entry: {{ colaborador.fecha_entrada_protectora }}
+        </article>
+    {% endfor %}
 </body>
 </html>

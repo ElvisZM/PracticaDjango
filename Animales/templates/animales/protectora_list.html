@@ -86,5 +86,12 @@
     </div>
   </div>
 </div>
+    {% for protectora in protectoras_mostrar %}
+        <article>
+            <h2><a href="">{{ protectora.nombre }}</h2>
+            <p>{{ protectora.descripcion }}</p>
+            <time>created: {{ protectora.fecha_creacion }}
+        </article>
+    {% endfor %}
 </body>
 </html>
